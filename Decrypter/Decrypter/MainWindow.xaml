@@ -1,0 +1,36 @@
+﻿<Window x:Class="Decrypter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Decrypter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="569.844" Width="365.274">
+    <Grid Margin="0,0,0,1">
+        <TextBox x:Name="Exponenttext" HorizontalAlignment="Left" Height="23" Margin="118,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229"/>
+        <TextBox x:Name="Modulustext" HorizontalAlignment="Left" Height="23" Margin="118,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229"/>
+        <TextBox x:Name="Dtext" HorizontalAlignment="Left" Height="23" Margin="118,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229"/>
+        <TextBox x:Name="DPtext" HorizontalAlignment="Left" Height="23" Margin="118,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229"/>
+        <TextBox x:Name="DQtext" HorizontalAlignment="Left" Height="23" Margin="118,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229"/>
+        <TextBox x:Name="inversQtext" HorizontalAlignment="Left" Height="23" Margin="118,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229"/>
+        <TextBox x:Name="Ptext" HorizontalAlignment="Left" Height="23" Margin="118,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229"/>
+        <TextBox x:Name="Qtext" HorizontalAlignment="Left" Height="23" Margin="118,280,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229"/>
+        <TextBox x:Name="chipertext" HorizontalAlignment="Left" Height="23" Margin="118,353,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229"/>
+        <TextBox x:Name="Decryptedtext" HorizontalAlignment="Left" Height="23" Margin="118,427,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,389,0,0" VerticalAlignment="Top" Width="75" Click="Decrypt"/>
+        <Label Content="Exponent" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.123,-2.818" Width="75"/>
+        <Label Content="Modulus" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.123,-2.818" Width="75"/>
+        <Label Content="D" HorizontalAlignment="Left" Margin="19,136,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.123,-2.818" Width="75"/>
+        <Label Content="DP" HorizontalAlignment="Left" Margin="19,164,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.123,-2.818" Width="75"/>
+        <Label Content="DQ" HorizontalAlignment="Left" Margin="19,192,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.123,-2.818" Width="75"/>
+        <Label Content="Inverse Q" HorizontalAlignment="Left" Margin="19,220,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.123,-2.818" Width="75"/>
+        <Label Content="P" HorizontalAlignment="Left" Margin="19,248,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.123,-2.818" Width="75"/>
+        <Label Content="Q" HorizontalAlignment="Left" Margin="19,276,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.123,-2.818" Width="75"/>
+        <Label Content="Cipherbytes" HorizontalAlignment="Left" Margin="19,349,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.123,-2.818" Width="75"/>
+        <Label Content="Decrypted" HorizontalAlignment="Left" Margin="19,423,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.123,-2.818" Width="75"/>
+        <TextBox x:Name="Moduluspath" HorizontalAlignment="Left" Height="23" Margin="118,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189" Text="Moduluspath"/>
+        <Button x:Name="xmlFilefinder" Content="..." HorizontalAlignment="Left" Margin="312,46,0,0" VerticalAlignment="Top" Width="26" Click="Filefinder"/>
+        <Button x:Name="Generatekeys" Content="Generate new keys" HorizontalAlignment="Left" Margin="220,508,0,0" VerticalAlignment="Top" Width="118" IsCancel="True" Click="Generatenewkeys"/>
+
+    </Grid>
+</Window>

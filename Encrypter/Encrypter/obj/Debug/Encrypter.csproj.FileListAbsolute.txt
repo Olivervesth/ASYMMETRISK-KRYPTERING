@@ -1,0 +1,15 @@
+C:\Users\Mr.Gawzy\source\repos\Encrypter\Encrypter\bin\Debug\Encrypter.exe.config
+C:\Users\Mr.Gawzy\source\repos\Encrypter\Encrypter\bin\Debug\Encrypter.exe
+C:\Users\Mr.Gawzy\source\repos\Encrypter\Encrypter\bin\Debug\Encrypter.pdb
+C:\Users\Mr.Gawzy\source\repos\Encrypter\Encrypter\obj\Debug\Encrypter.csprojAssemblyReference.cache
+C:\Users\Mr.Gawzy\source\repos\Encrypter\Encrypter\obj\Debug\MainWindow.g.cs
+C:\Users\Mr.Gawzy\source\repos\Encrypter\Encrypter\obj\Debug\App.g.cs
+C:\Users\Mr.Gawzy\source\repos\Encrypter\Encrypter\obj\Debug\Encrypter_MarkupCompile.cache
+C:\Users\Mr.Gawzy\source\repos\Encrypter\Encrypter\obj\Debug\Encrypter_MarkupCompile.lref
+C:\Users\Mr.Gawzy\source\repos\Encrypter\Encrypter\obj\Debug\MainWindow.baml
+C:\Users\Mr.Gawzy\source\repos\Encrypter\Encrypter\obj\Debug\Encrypter.g.resources
+C:\Users\Mr.Gawzy\source\repos\Encrypter\Encrypter\obj\Debug\Encrypter.Properties.Resources.resources
+C:\Users\Mr.Gawzy\source\repos\Encrypter\Encrypter\obj\Debug\Encrypter.csproj.GenerateResource.cache
+C:\Users\Mr.Gawzy\source\repos\Encrypter\Encrypter\obj\Debug\Encrypter.csproj.CoreCompileInputs.cache
+C:\Users\Mr.Gawzy\source\repos\Encrypter\Encrypter\obj\Debug\Encrypter.exe
+C:\Users\Mr.Gawzy\source\repos\Encrypter\Encrypter\obj\Debug\Encrypter.pdb
